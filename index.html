@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__title">
+                    Властивості FLEX-контейнера та Flex-елементів
+                </h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__body body">
+                    <div class="body__first-block body__first-block--margin first-block">
+                        <div class="first-block__element">
+                            <div class="first-block__item">
+                                A
+                            </div>
+                        </div>
+                        <div class="first-block__element">
+                            <div class="first-block__item">
+                                Б
+                            </div>
+                        </div>
+                        <div class="first-block__element">
+                            <div class="first-block__item">
+                                В
+                            </div>
+                        </div>
+                        <div class="first-block__element">
+                            <div class="first-block__item">
+                                Г
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__second-block body__second-block--margin second-block">
+                        <div class="second-block__element">
+                            <div class="second-block__item">
+                                тверда Г
+                            </div>
+                        </div>
+                        <div class="second-block__element">
+                            <div class="second-block__item">
+                                Д
+                            </div>
+                        </div>
+                        <div class="second-block__element">
+                            <div class="second-block__item">
+                                Е
+                            </div>
+                        </div>
+                        <div class="second-block__element">
+                            <div class="second-block__item">
+                                Є
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__third-block body__third-block--margin third-block">
+                        <div class="third-block__element">
+                            <div class="third-block__item">
+                                Ж
+                            </div>
+                        </div>
+                        <div class="third-block__element">
+                            <div class="third-block__item">
+                                З
+                            </div>
+                        </div>
+                        <div class="third-block__element">
+                            <div class="third-block__item">
+                                И
+                            </div>
+                        </div>
+                        <div class="third-block__element">
+                            <div class="third-block__item">
+                                І
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__fourth-block body__fourth-block--margin fourth-block">
+                        <div class="fourth-block__element">
+                            <div class="fourth-block__item">
+                                Ї
+                            </div>
+                        </div>
+                        <div class="fourth-block__element">
+                            <div class="fourth-block__item">
+                                Й
+                            </div>
+                        </div>
+                        <div class="fourth-block__element">
+                            <div class="fourth-block__item">
+                                К
+                            </div>
+                        </div>
+                        <div class="fourth-block__element">
+                            <div class="fourth-block__item">
+                                Л
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__fifth-block body__fifth-block--margin fifth-block">
+                        <div class="fifth-block__element">
+                            <div class="fifth-block__item">
+                                М
+                            </div>
+                        </div>
+                        <div class="fifth-block__element">
+                            <div class="fifth-block__item">
+                                Н
+                            </div>
+                        </div>
+                        <div class="fifth-block__element">
+                            <div class="fifth-block__item">
+                                О
+                            </div>
+                        </div>
+                        <div class="fifth-block__element">
+                            <div class="fifth-block__item">
+                                П
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__sixth-block body__sixth-block--margin sixth-block">
+                        <div class="sixth-block__element">
+                            <div class="sixth-block__item">
+                                Р
+                            </div>
+                        </div>
+                        <div class="sixth-block__element">
+                            <div class="sixth-block__item">
+                                С
+                            </div>
+                        </div>
+                        <div class="sixth-block__element">
+                            <div class="sixth-block__item">
+                                ТTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                            </div>
+                        </div>
+                        <div class="sixth-block__element">
+                            <div class="sixth-block__item">
+                                У
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__seventh-block body__seventh-block--margin seventh-block">
+                        <div class="seventh-block__element">
+                            <div class="seventh-block__item">
+                                Ф
+                            </div>
+                        </div>
+                        <div class="seventh-block__element">
+                            <div class="seventh-block__item">
+                                Х
+                            </div>
+                        </div>
+                        <div class="seventh-block__element">
+                            <div class="seventh-block__item">
+                                Ц
+                            </div>
+                        </div>
+                        <div class="seventh-block__element">
+                            <div class="seventh-block__item">
+                                Ч
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__eighth-block body__eighth-block--margin eighth-block">
+                        <div class="eighth-block__element">
+                            <div class="eighth-block__item">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </div>
+                        </div>
+                        <div class="eighth-block__element">
+                            <div class="eighth-block__item">
+                                Щ
+                            </div>
+                        </div>
+                        <div class="eighth-block__element">
+                            <div class="eighth-block__item">
+                                Ь
+                            </div>
+                        </div>
+                        <div class="eighth-block__element">
+                            <div class="eighth-block__item">
+                                Ю
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__nineth-block body__nineth-block--margin nineth-block">
+                        <div class="nineth-block__element">
+                            <div class="nineth-block__item">
+                                Я
+                            </div>
+                        </div>
+                        <div class="nineth-block__element">
+                            <div class="nineth-block__item">
+                                Українська абетка
+                            </div>
+                        </div>
+                        <div class="nineth-block__element">
+                            <div class="nineth-block__item">
+                                Алфавіт
+                            </div>
+                        </div>
+                        <div class="nineth-block__element">
+                            <div class="nineth-block__item">
+                                Азбука
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__block">
+                <div class="text-block">
+                    <h2 class="text-block__title">
+                        I'm a title
+                    </h2>
+                    <a href="#" class="text-block__link">I'm a link</a>
+                    <div class="text-block__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quia optio aut numquam odio
+                        magni
+                        tempore. Corporis veritatis reprehenderit doloremque pariatur. Sunt, placeat cumque? Omnis
+                        libero
+                        pariatur iste doloremque maxime.
+                    </div>
+                </div>
+            </div>
+            <div class="footer__cards cards">
+                <div class="cards__column">
+                    <div class="cards__item item-cards">
+                        <div class="item-cards__image">
+                            <img src="img/dog-5960092_1920.jpg" alt="The picture of the cute dog">
+                        </div>
+                        <div class="item-cards__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio debitis non maxime
+                            provident explicabo ex aliquid odio consequuntur exercitationem dignissimos, blanditiis,
+                            vero odit. Dignissimos vel excepturi consequatur. Amet, perferendis.
+                        </div>
+                        <a href="#" class="item-cards__button">Button</a>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item item-cards">
+                        <div class="item-cards__image">
+                            <img src="img/dog-5960092_1920.jpg" alt="The picture of the cute dog">
+                        </div>
+                        <div class="item-cards__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio debitis non maxime
+                            provident explicabo ex aliquid odio consequuntur exercitationem dignissimos, blanditiis,
+                            vero odit.
+                        </div>
+                        <a href="#" class="item-cards__button">Button</a>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item item-cards">
+                        <div class="item-cards__image">
+                            <img src="img/dog-5960092_1920.jpg" alt="The picture of the cute dog">
+                        </div>
+                        <div class="item-cards__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <a class="item-cards__button" href="#">Button</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer__example-link">
+                <a href="#" class="link">Я посилання</a>
+            </div>
+
+            <div class="footer__object object">
+                <div class="object__icon"></div>
+                <div class="object__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem quaerat provident nostrum
+                    cum facere sequi soluta debitis, modi repudiandae placeat quis numquam commodi fugiat reprehenderit
+                    saepe inventore ipsam odio?
+                </div>
+            </div>
+
+            <div class="footer__float-example">
+                <img style="width: 200px;" class="image" src="img/dog-5960092_1920.jpg"
+                    alt="The picture of the cute dog">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repellat voluptatem excepturi aliquid,
+                exercitationem soluta natus molestiae voluptas est veritatis ab accusantium rem labore vel, esse
+                delectus quibusdam quis officia!
+            </div>
+
+    </div>
+
+    </footer>
+    </div>
+
+</body>
+
+</html>
